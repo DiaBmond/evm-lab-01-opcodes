@@ -22,6 +22,8 @@ Puzzle solved!
 
 [Run it in evm.codes](https://www.evm.codes/playground?callValue=16&unit=Wei&callData=&codeType=Bytecode&code=%2734800261010014600C57FDFD5B00FDFD%27_)
 
+## Solution
+
 ### The Goal
 This puzzle introduces the `57 JUMPI` (Conditional Jump) and `14 EQ` (Equality) opcodes. We need to find a specific `CALLVALUE` that, when multiplied by itself (squared), equals exactly `0x0100` in hex (which is 256 in decimal), so that the conditional jump successfully lands on `0C JUMPDEST`.
 
